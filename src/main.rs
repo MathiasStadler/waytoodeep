@@ -1,5 +1,3 @@
-// in `src/main.rs`
-
 use color_eyre::Report;
 use tracing::info;
 use tracing_subscriber::EnvFilter;
@@ -8,7 +6,7 @@ use tracing_subscriber::EnvFilter;
 async fn main() -> Result<(), Report> {
     setup()?;
 
-    println!("Hello from a (so far completely unnecessary) async runtime");
+    info!("Hello from a comfy nest we've made for ourselves");
 
     Ok(())
 }
