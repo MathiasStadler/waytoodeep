@@ -1,0 +1,19 @@
+
+update crates
+
+1) cargo install cargo-update
+2) cargo install --list
+3) cargo-upgrade upgrade --incompatible --verbose #( full update)
+4) cargo build
+5) cargo run
+
+
+log4rust
+//from here
+// https://fasterthanli.me/articles/understanding-rust-futures-by-going-way-too-deep
+
+1) cargo install cargo-edit
+2) cargo add tokio@1.9.0 --features full
+3) cargo add color-eyre@0.5.11
+4) cargo add tracing@0.1.26 tracing-subscriber@0.2.19
+5) cargo-upgrade upgrade --incompatible --verbose #( full update)
